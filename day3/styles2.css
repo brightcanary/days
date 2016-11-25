@@ -1,0 +1,58 @@
+html,
+body,
+.wrapper-content {
+	height: 100%;
+}
+
+header li {
+	 display: inline-block;
+	 background-color: white; /* Цвет фона под текстом параграфа */
+	 color: black
+}
+.position-absolute {
+	position: absolute;
+	top:0;
+}
+.collage {
+	position: fixed;
+	background: url(https://pp.vk.me/c621616/v621616629/1c409/qAR4hVIP798.jpg) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: cover; /* Масштабируем фон */;
+	
+	border-top: none;
+
+	padding-top: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.animate {
+	animation: move infinite;
+	position: absolute;
+
+}
+
+.cat {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.text {
+	background-color: white; /* Цвет фона под текстом параграфа */
+	color: black;
+	position: fixed;
+	bottom: 5%;
+	left: 10%;
+	width: 30%;
+
+}
+.music {
+	left: 25%;
+}
+
+
+* 
+{
+  margin: 0;
+  padding: 0;
+}

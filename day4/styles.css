@@ -1,0 +1,39 @@
+body {
+	font-family: 'Biorhymebold';
+	font-family: 'Inconsolata', monospace;
+
+	font-weight : 700;
+	font-size: 30px;
+}
+@font-face {
+	src: url('Biorhymebold.woff');
+	font-family: 'Biorhymebold';
+	font-weight: 300;
+}
+
+.container {
+	display : flex;
+	flex-direction: row-reverse; 
+	justify-content: space-between;
+}
+
+.container div {
+	padding: 30px;
+	border-radius: 5px;
+}
+.el1 {
+	background: #342425;
+}
+.el2 {
+	background: #628923;
+}
+.el3 {
+	background: #ade582;
+}
+.el4 {
+	background: #356283
+}
+.el5 {
+	background: #eaf502;
+}
+
